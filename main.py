@@ -13,7 +13,7 @@ API_TOKEN = os.getenv("BOT_TOKEN")
 # Bot va Dispatcher
 bot = Bot(token=API_TOKEN, session=AiohttpSession())
 dp = Dispatcher()
-BOT_TOKEN=8792338101:AAElm2zr53s_HXnPxk5XMeBOdprDSzeIG84
+
 # Guruh a'zolarini vaqtincha saqlash uchun lug'at
 group_database = {}
 
