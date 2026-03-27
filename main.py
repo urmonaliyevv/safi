@@ -8,7 +8,7 @@ from aiogram.client.session.aiohttp import AiohttpSession
 
 # .env yuklash
 load_dotenv()
-API_TOKEN = os.getenv("BOT_TOKEN")
+API_TOKEN = os.getenv("API_TOKEN")
 
 # Bot va Dispatcher
 bot = Bot(token=API_TOKEN, session=AiohttpSession())
